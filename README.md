@@ -38,8 +38,8 @@ The full pipeline covers:
 
 | Metric | Score |
 |---|---|
-| **Test Accuracy** | **94.3%** |
-| Test Loss | 0.204 |
+| **Test Accuracy** | **94.04%** |
+| Test Loss | 0.1915 |
 | Macro F1 | 0.94 |
 | Weighted F1 | 0.94 |
 
@@ -47,10 +47,13 @@ The full pipeline covers:
 
 | Class | Precision | Recall | F1 |
 |---|---|---|---|
-| Glioma | 0.97 | 0.93 | 0.95 |
-| Meningioma | 0.97 | 0.84 | 0.90 |
-| No Tumor | 0.93 | 0.99 | 0.96 |
-| Pituitary | 0.92 | 1.00 | 0.96 |
+| Glioma | 0.95 | 0.95 | 0.95 |
+| Meningioma | 0.93 | 0.86 | 0.89 |
+| No Tumor | 0.95 | 0.95 | 0.95 |
+| Pituitary | 0.93 | 0.99 | 0.96 |
+"""
+
+display(Markdown(markdown_content))
 
 **Confusion matrix highlights:**
 - Pituitary and No Tumor are classified with near-perfect recall
