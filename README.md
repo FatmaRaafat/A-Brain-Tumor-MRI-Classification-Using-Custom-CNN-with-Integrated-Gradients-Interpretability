@@ -51,9 +51,7 @@ The full pipeline covers:
 | Meningioma | 0.93 | 0.86 | 0.89 |
 | No Tumor | 0.95 | 0.95 | 0.95 |
 | Pituitary | 0.93 | 0.99 | 0.96 |
-"""
 
-display(Markdown(markdown_content))
 
 **Confusion matrix highlights:**
 - Pituitary and No Tumor are classified with near-perfect recall
